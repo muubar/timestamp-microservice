@@ -1,0 +1,23 @@
+{
+	"name": "fcc-api-projects-timestamp",
+	"version": "1.0.0",
+	"description": "An FCC Backend project",
+	"main": "server.js",
+	"scripts": {
+		"lstart": "cross-env NODE_ENV=production PORT=3000 node server.js"
+	},
+	"dependencies": {
+		"cors": "^2.8.4",
+		"express": "^4.16.3"
+	},
+	"devDependencies": {
+		"cross-env": "^5.2.0"
+	},
+	"keywords": [
+		"node",
+		"hyperdev",
+		"express",
+		"freecodecamp"
+	],
+	"license": "MIT"
+}
